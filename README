@@ -19,6 +19,13 @@ conflicts with other symbols.
 
 A segmentation fault in the dotnet API was fixed.
 
+!!
+Note that for the next release there are various API changes in the queue. 
+Over the last 7 years hamsterdb has grown continuously, and it's time to clean
+up some of the changes in order to improve consistency and reduce the code.
+A few functions will be removed, i.e. support for encryption and compression.
+The file format will most likely change as well.
+
 2. Changes
 
 New Features
